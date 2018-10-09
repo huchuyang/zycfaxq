@@ -14,7 +14,7 @@ import cfca.trustsign.demo.util.TimeUtil;
 /**
  * @author hurong
  * @version 1.0
- * @createTime 2018-09-30-11:29
+ * @createTime 2018-09-30-11:29   test
  */
 public class Test3206A {
 
@@ -38,7 +38,7 @@ public class Test3206A {
         signInfo.setProjectCode("003");
         signInfo.setSignLocation("Signature1;Signature2;Signature3;");
         signInfo.setAuthorizationTime(TimeUtil.getCurrentTime(TimeUtil.FORMAT_14));
- 
+
         signContract.setSignInfo(signInfo);
 
         tx3206ReqVO.setHead(head);
